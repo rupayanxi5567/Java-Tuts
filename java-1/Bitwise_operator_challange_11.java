@@ -56,6 +56,19 @@ public class Bitwise_operator_challange_11 {
         // System.out.println("The Complement operator of X and Y is " + result);
 
 
+        //Challange-5
+
+        System.out.println("Enter the value of X: ");
+        int X = inputs.nextInt();
+
+        if ( (X & 1) == 0) {
+            System.out.println("The number is even");
+        } else if ((X & 1) == 1) {
+            System.out.println("The number is odd");
+        }
+
+
+
 
 
 
